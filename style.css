@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.abnav{
+    background-color: #0f6da1;
+}
+.abnav ul li a{
+    font-size: 12px;
+}
+.abna{
+    margin-left: 800px; 
+}
+.matt{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: white;
+}
+.matt p{
+    font-size: clamp(8px, 2.1vh , 25px);
+
+}
+.bt{
+    background-color: #046fa7;
+}
+.nav{
+    color: red;
+}
+.navbar{
+    margin-top: -8px;
+}
+.nxnav{
+    margin-top: -60px;
+}
+.card h5{
+    color: #ff7311;
+}
+.btnn
+{
+    margin-left: 180px;
+}
+.bfn a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight:900;
+    color: #f06f3b;
+}
+.bfn a:hover{
+    color: #ffbd27;
+}
+
+.matt .col-md:hover{
+    color: white;
+    background-color: #ff7311;
+}
+.sidecard h5{
+  font-size: clamp(15px , 2vw, 20vh);
+  margin-top:clamp(5px,2vw,40px);
+
+}
+.sidecard p{
+  font-size: clamp(10px, 1.5vw, 18px);
+  margin-top:clamp(5px,2vw,40px);
+
+}
+.ca h5{
+  font-size: clamp(15px , 2vw, 18px);
+}
+.ca p{
+  font-size: clamp(10px, 1.5vw, 17px);
+}
+.log .1{
+  margin-left: clamp(10px, 1.5vw, 17px)
+}
+.log .2{
+  margin-left: clamp(10px, 1.5vw, 17px);
+}
+.bttt{
+  font-size: clamp(10px, 2vw, 20px);
+}
+.bodyy h5{
+  font-size: clamp(10px, 1.5vw, 20px);
+}
+.bodyy p{
+ font-size: clamp(10px, 1.5vw, 16px);
+}
+.bodyy{
+    position: absolute;
+    margin-left: 250px;
+    margin-right: 490px;
+    background: white;
+    box-shadow: -4px 10px 20px 1px #7a7a7a;
+    margin-top: 120px;  
+}
+.iconn{
+  background-color: #046fa7;
+}
+.bodyyy h5{
+  color: #565759;
+}
+.matter h5{
+    color: #565759;
+    font-size: clamp(10px, 1.5vw, 20px);
+
+}
+.matter p{
+ font-size: clamp(10px, 1.5vw, 16px);
+
+}
+.bodyyy p{
+  font-size: clamp(10px, 1.5vw, 16px);
+}
+.bodyyy h5{
+    font-size: clamp(10px, 1.5vw, 20px);
+}
+.ftt p{
+  font-size: clamp(10px, 1.5vw, 16px);
+
+}
+.image
+{
+    position: absolute;
+    width: 900px;
+}
+.bodyyy{
+    position: relative;
+    margin-right: 200px;
+    background: white;
+    box-shadow: 18px 20px 20px -11px;
+margin-top: 90px;
+}
+.hotel{
+    margin-top: clamp(1rem, 10vw, 2rem);
+    font-size: clamp(1.5rem, 4vw, 2rem); 
+    color: #ff7311;
+}
+.con {
+    /* margin-left: 80px; */
+    background: #046fa7;
+    font-size: clamp(2vh,0.7vw,10rem);
+}
+
+/* mobile media  */
+@media(max-width:766px){
+    .bodyyy{
+    margin-top: 120px;
+    width: 100%;
+    }
+    .bfn a{
+      font-size: 10px;
+    }
+    .bodyy{
+        position: relative;
+        margin-left: 0px;
+    margin-top: 3px;
+    width: 100%;
+    }
+    .si{
+        /* margin-left: 54px; */
+        height: 150px;
+    }
+    .navbar{
+        margin-top: -30px;
+    }
+    .btnn
+{
+    margin-left: 10px;
+}
+
+.matt .col-md:hover{
+    color: white;
+    background-color: #ff7311;
+}
+.log img{
+    margin-left: 80px;
+}
+.log .1{
+    margin-left: 20px;
+}
+.search{
+    margin-right: 30px;
+}
+.bt{
+  margin-left: 60px;
+}
+}
+/* tab media  */
+@media(min-width:767px) and (max-width:1023px){
+  .bodyy{
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 210px;
+    background: white;
+    box-shadow: -4px 10px 20px 1px #7a7a7a;
+    margin-top: 62px;  
+}
+.bodyyy{
+  position: relative;
+  margin-left: -364px;
+  margin-right: 3px;
+  background: white;
+  box-shadow: 18px 20px 20px -11px;
+  margin-top: 340px;
+}
+.bfn a{
+  font-size: 20px;
+}
+}
